@@ -79,7 +79,7 @@ function Question({quizData, getQuizData}) {
   )})
 
   return (
-    <div className="height-100">
+    <div>
       {questionElement}
       {!showAnswers && <button className="btn-small" onClick={checkAnswers}>Check answers</button>}
 
